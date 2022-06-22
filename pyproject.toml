@@ -17,6 +17,7 @@ unidecode = {version="^1.3.4", optional=true}
 
 [tool.poetry.extras]
 encode = ["unidecode"]
+unidecode = ["unidecode"]
 requests = ["requests"]
 httpx = ["httpx"]
 
